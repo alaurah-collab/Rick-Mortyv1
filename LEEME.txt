@@ -1,0 +1,16 @@
+GALERÍA RICK AND MORTY
+======================
+Estructura:
+  index.html     -> página principal (debe quedar en la raíz para Vercel)
+  css/estilos.css
+  js/app.js      -> fetch, tarjetas, modal Detalle y paginación
+  api.php        -> intermediario opcional en PHP (solo XAMPP)
+
+Probar en tu PC:
+  - Más fácil: abre index.html con doble clic (o Live Server).
+  - Con PHP: copia la carpeta a htdocs, pon USAR_PROXY_PHP = true en js/app.js
+    y abre http://localhost/galeria-rickandmorty/
+
+Publicar en Vercel (reto nivel 2):
+  - Deja USAR_PROXY_PHP = false (Vercel no ejecuta PHP).
+  - Sube la carpeta a GitHub e impórtala en Vercel (Framework: Other, sin Build Command).
